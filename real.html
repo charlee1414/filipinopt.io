@@ -2,30 +2,97 @@
 <html>
 
 <head>
-   
-    <title>Your Blog Title</title>
+  
+
+ 
+    <title>Filipino pt </title>
     <style>
+	
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #F2F3F5
+	;
+           text-align: justify;
         }
 
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        }
+       header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    height: 300px; 
+    overflow: hidden;
+}
+
+header img {
+    width: 100%;
+    height: auto; 
+}
 
         nav {
             background-color: #444;
             color: #fff;
             text-align: center;
             padding: 0.5em 0;
+            
         }
-
+		nav>ul{
+          display: inline-block;
+          align-items: center;
+          width: fit-content;
+		}
         nav a {
             color: #fff;
             text-decoration: none;
@@ -37,8 +104,9 @@
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #cccccc;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
         }
 
         footer {
@@ -47,40 +115,188 @@
             background-color: #333;
             color: #fff;
         }
+		
+		 #myList {
+      display: none;
+    }
+		
+		
     </style>
 </head>
 
 <body>
 
     <header>
-        <h1>Your Blog</h1>
+         <img src="https://media.npr.org/assets/img/2018/01/17/gettyimages-905896316_wide-47ed7674d4ac440a40edccf810c5f686b8fbb7f0-s1400-c100.jpg">
     </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Categories</a>
-        <a href="#">About</a>
-        <a href="#">Contributors</a>
+
+
+    <nav align=center>
+       <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="https://ipi.media/philippines-press-freedom-remains-under-strain-under-marcos-jr-administration/">News</a></li>
+  <li><a href="https://docs.google.com/document/d/19V5Aqrq5XFZ2t04kqZbfi2IKAIzrnFQ-FRSKPuAGVOk/edit?fbclid=IwAR2W8AxCEKyMBj9pDGFOV8s0xjVMMJfbf29-R0x3KdsbDC0ADJ5LhSywGvk&pli=1">Document</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Sources</a>
+    <div class="dropdown-content">
+      <a href="https://en.wikipedia.org/wiki/Kalayaan
+">Source 1</a>
+      <a href="https://tl.wikipedia.org/wiki/Araw_ng_Kalayaan">Source 2</a>
+      <a href="https://brilliantio.com/why-freedom-is-important/
+">Source 3</a>
+    </div>
+  </li>
+</ul>
     </nav>
 
     <main>
         <article>
-            <h2>Blog Post Title 1</h2>
-            <p>Published on: <time datetime="2023-12-13">December 13, 2023</time></p>
-            <p>Put somethnig in here again </p>
+            <center><h1>Pag-awit ng Kalayaan</h1></center>
+            
+            
+           <center> <p>Alam niyo ba kung ano ang kahulugan ng kalayaan? Nakakaranas ka ba ng kalayaan o nakakaranas pa ba tayo ng kalayaan sa kasalukuyan? Ano kaya ang klaseng kalayaan na naranasan ng iba noon? At ano nga ba ang ginagawa natin para ipagdiwang ang kalayaan?
+ <br/>
+ <br/>
+ <br/>
+Mabuhay! Kung naghahanap ka ng sagot sa mga tanong na ito, pwes nasa tamang blog ka! Kami ang ika-apat na grupo ng 10 - Ferrando at pag-uusapan namin ang isang karaniwang paksa ng lipunan: ang kalayaan at ang kalayaan ng pagsasalita.
+</p></center>
+           
         </article>
+     
 
-        <article>
-            <h2>Blog Post Title 2</h2>
-            <p>Something here</p>
-            <p>Something here again </p>
+       <center>
+<center>
+<p>Sa isang araw ng bawat taon, isang napakahalagang okasyon ang ipinagdidiriwang ng mga Pilipino: ang “Araw ng Kalayaan”. Nangyayari tuwing ika-labindalawa ng Hunyo, ang Araw ng Kalayaan o Araw ng Kasarinlan ay ipinagdidiriwang para sa pag-aalala ng pamamahayag ng kalayaan ng Pilipinas laban sa mga Kastila. Ngunit, ito rin ay isang pagkakataon para magbigay-pugay at magkaroon ng masusing pagsusuri sa kahulugan ng kalayaan sa ating mga puso at isipan. Sa pinakamahalagang okasyon na ito, una nating naranasan ang kalayaan. 
+<br/>
+<br/>
+<br/>
+
+Sa bawat hakbang na ating ginagawa tungo sa kinabukasan, ang kalayaan ay isa sa mga pangunahing tagumpay na ating iniaalay sa mga bayani na nagbuwis ng kanilang buhay para sa kalayaan ng bansa. Ang ating kasaysayan ay puno ng mga kwento ng lakas ng loob, pag-aalay, at tiwala sa pangarap ng isang malaya at progresibong Pilipinas. Dahil nga’t nasa paksa na tayo ng kalayaan.
+</p></center>
+
+<br/>
+<br/>
+     <article>
+            <h2>Ano nga ba ang kahulugan ng kalayaan? 
+</h2>
+            <p>Kalayaan— isang napakalawak at karaniwang pinag-uusapan na paksa. Isang salitang hindi lahat ang nagkakaroon. Isang salitang hanggang kasalukuyan ay ipinaglalaban pa rin. Ang kalayaan ay isang signipikatibo at mahalagang aspekto ng pagkakakilanlan ng isang tao. Nasasaklaw nito ang kakayahang gumawa ng mga pagpipilian, ipahayag ang sariling katangian, at ituloy ang mga mithiin ng walang labis na mga hadlang. Matatawag lamang na tunay ang kalayaan kapag nagagawa mo ang mga bagay na ito. Lumalampas ito sa kawalan ng mga pisikal na paghihigpit; umaabot ito sa larangan ng personal na pagpapahayag, pagpapasya sa sarili, at paghahangad ng isang kasiya-siyang buhay.
+            <br/>
+            <h2> Nararapat nga bang magkaroon ang bawat isa ng kalayaan?</h2>
+            
+Bagama’t tayo ay nakamit na ang tagumpay at pagbabago, ang lipunan sa kasalukuyan ay naghihirap pa rin na maka asam ng hinahangad na kalayaan sa kani-kanilang mga buhay. Halimbawa lang nito ay ang makalaya sa kahirapan, kawalan ng hustisya, at iba pang mga aspekto. Ang pagkakaroon ng kalayaan ng bawat isa ay nakadepende sa sitwasyon at pangangailangan. 
+
+<br/>
+<br/>
+
+            Sa pangkalahatan, itinuturing na pangunahing karapatan ng bawat isa ang kalayaan. Kasama rito ang pagtitipon, pagsasalita, at pagsali sa mga proseso ng lipunan. Ang kalayaan ay nagbibigay daan sa indibidwal na magkaroon ng kontrol sa kanilang sarili at makialam sa mga aspeto ng kanilang buhay.
+<br/>
+<br/>
+Gayunpaman, may mga pagkakataon kung saan ang kalayaan ng isa ay maaaring makaapekto sa kalayaan ng iba. Halimbawa, ang paggawa ng krimen o pagsasagawa ng anumang gawain na maaaring makapanakit sa iba ay hindi dapat ituring na bahagi ng kalayaan. Ang paglalagay ng limitasyon sa kalayaan ay maaaring kinakailangan upang mapanatili ang kaayusan at kapayapaan sa isang lipunan.
+<br/>
+<br/>
+
+Kasabay nito, naging usapan din sa lipunan kung bakit hindi sila nakakaranas ng kalayaan. 
+
+</p>
+
+<br/>
+
+<h2>Bakit nga ba hindi nakakaranas ng kalayaan ang karamihan? </h2>
+
+<p> Isang katangian na hindi naipapakita ng karamihan ay ang kanilang tunay na sarili na nagiging hadlang sa pagkakaroon nila ng kalayaan. Ito’y marahil mapanghusga ang ating lipunan. Sa isang mundong mapaghusga, maraming mga tao ang nakatago sa iisang maskara— ang maskara ng pagpapanggap. 
+<br/>
+
+<br/>
+Ang puno’t dulo ng lahat ng ito ay ang ating lipunan. Ito’y dahil ang mga tao ay madali na manghusga. Isang kilos, isang salita, makakansela ka agad. Ang ating pagtatapon sa ibang tao dahil sa kanilang mga pagkakamali, kahit hindi natin ganap na nauunawaan ang kanilang pinagdadaanan, ay mabilis at walang habas. Sa kasalukuyang lipunan, ang social media ay naging isang komplikadong plataporma kung saan ang mga opinyon at haka-haka ay agad at malawakan na kumakalat. Ito'y naglilikha ng mabilisang paghusga. Ang kultura ng "cancel culture" ay nagbibigay ng malaking pasanin sa mga tao na nagkakamali. Ngunit, mahalaga ring tandaan na ang bawat isa sa atin ay nagkakamali at natututo mula rito. Ang kakulangan sa pang-unawa at pagkakaroon ng pangalawang pagkakataon ay maaaring magresulta sa patuloy na pag-aaway sa ating lipunan. Sa halip na maging madaling maghusga, mas mabuting maglaan ng oras para suriin at maunawaan ang mga tao sa ating paligid.
+<br/>
+<br/>
+
+Sa ating mga kamay ay nakasalalay ang pagpapatuloy ng nasimulan ng mga nagdaang henerasyon. Bilang mga mamamayang may sariwang pangarap para sa bansa, tayo ay may bahagi sa pagpapalalim ng kahulugan ng kalayaan. Ang pagsusuri sa ating sarili at sa ating mga kilos ay mahalaga upang masiguro na ang bawat hakbang natin ay tungo sa ikauunlad ng bayan. Tulad ng munting pag-aalay ng bawat indibidwal na may kanya-kanyang papel sa lipunan, tayo ay may mahalagang tungkulin sa pagtahak sa hinaharap. Ang hamon ay hindi lamang ang pagpapalaya mula sa anumang uri ng pagkaalipin kundi ang pagtataguyod ng katarungan, pag-unlad, at kapayapaan.
+<br/>
+<br/>
+
+Ang kapayapaan ay isang pundamental na sangkap para sa pagbuo ng masiglang at masaganang lipunan. Ito'y naglalayong mapanatili ang harmonya at balanseng pagsasamahan ng mga tao sa iba't ibang sektor ng buhay. Sa ilalim ng kapayapaan, ang mga komunidad ay makakamit ng kahusayan at isang sistemang na maayos, at magbubukas ng daan para sa mas magandang antas ng pamumuhay. Ang kapayapaan ay hindi lamang nag-aambag sa maayos na pag-ikot ng lipunan, kundi naglilikha rin ng katiwasayan at pagkakaisa. Ito ay isang pangunahing bahagi ng pang-araw-araw na buhay na naglalayong mapanatili ang harmonya at balanseng ugnayan ng mga tao sa iba't ibang sektor ng buhay. Ang pagkakaroon ng kapayapaan ay nagbubukas ng oportunidad para sa masusing pangangalaga sa edukasyon, nagbibigay inspirasyon sa pag-unlad, at nagbubukas ng pinto para sa pangmatagalang pagkakaibigan.
+</p>   
+
+<p>Alinsunod dito, dahil sa pag-usbong ng teknolohiya at pag-unlad ng lipunan, lumalabas ang isang mahalagang isyu na nagiging balakid sa ating landas tungo sa pag-unlad: ang Kawalan ng Kalayaan sa Pagsasalita o Freedom of Speech. Ang kalayaang ito ay itinuturing na pundamental na karapatan ng bawat isa, ngunit sa ilalim ng ilang kalagayan, nararanasan itong mabawasan o mahamak.
+
+<br/>
+
+<h2> Kalayaan sa Pagsasalita o Freedom of Speech. </h2>
+
+<br/>
+Ang kalayaang ito ay itinuturing na pundamental na karapatan ng bawat isa, ngunit sa ilalim ng ilang kalagayan, nararanasan itong mabawasan o mahamak.
+
+<br/>
+
+<br/>
+Ang Kalayaan ng Pananalita ay isang pangunahing pundasyon ng isang lipunang demokratiko. Ito ay naglalayong magbigay daan sa malayang pagsasalita at pagpapahayag, nagtataguyod ng demokrasya, at nagtuturo sa atin ng paggalang sa iba't ibang opinyon. Gayunpaman, sa kabila ng kahalagahan nito, may mga sitwasyon at konteksto kung saan ito ay nakakasagabal o inililimita. 
+<br/>
+<br/>
+
+Ang bawat tao'y may karapatan sa kalayaan ng opinyon at pagpapahayag; kabilang sa karapatang ito ang kalayaang humawak ng mga opinyon nang walang panghihimasok at maghanap, tumanggap at magbigay ng impormasyon at ideya sa pamamagitan ng anumang media at anuman ang mga hangganan. Ngunit, hindi lahat ay nagkakaroon nito, dahil sa parehas na mga dahilan na humahadlang ng kalayaan. Takot ang pangunahing dahilan sa pagkukulang ng Kalayaan ng Pananalita. Takot na mahusgahan, pagtawanan, at makagawa ng pagkakamali. 
+<br/>
+<br/>
+
+Sa kabila naman nito, ang kalayaan sa pagsasalita ay isang pundamental na aspeto ng isang lipunan na nagdudulot ng iba't ibang benepisyo. Sa isang demokratikong sistema, ito ang pangunahing paraan kung paano nakakapag-ambag ang mga mamamayan sa politika at lipunan. Ito'y nagbubukas ng pintuan para sa masusing pagsusuri ng impormasyon at nagbibigay-daan sa malayang pagpapahayag ng iba't ibang opinyon. Ang kalayaan sa pagsasalita ay nagtataguyod ng masusing pagsusuri at nagsisilbing proteksyon sa iba't ibang karapatan ng tao. Ito rin ay nagbibigay ng puwang para sa inobasyon at pag-unlad, sapagkat sa pamamagitan ng malayang pagsasalita, mas nagiging bukas ang mga tao sa pagbibigay ng mga ideya at suhestiyon. Isa itong mahalagang mekanismo para sa pagpapaunlad ng lipunan at pagpapatibay ng ugnayan sa pagitan ng mga mamamayan at ng gobyerno. Sa kabuuan, ang kalayaan sa pagsasalita ay nagbibigay-buhay sa demokrasya at naglalarawan ng kalusugan ng isang lipunan.
+
+<br/>
+<br/>
+Makakamit lamang ito sa pamamagitan ng pagtutulungan at pagkakaisa. Ang pagkakaisa ng gobyerno at ng lipunan ang isang malaking hakbang para sa kalayaan. Unang una, maaaring sumulong o gumawa ng mga batas ang gobyerno para mapanatiling ligtas ang bawat mamamayan at magagawa nila ang kanilang ninanais ng walang pagdidiskrita. Ang edukasyon rin ay makakatulong sa pagpapahalaga at pag-unawa ng bawat isa tungkol sa pagkakaroon ng karapatan at kalayaan ng pananalita. Ngunit, ang pinaka importante ang pagtutulungan at pag-unawa sa bawat isa. 
+<br/>
+<br/>
+
+
+Sa pamamagitan nito, ang lahat na mamamayan ay magkakaroon ng kalayaan at kapayapaan. Ito man ay tungkol sa kanilang mga aksyon, salita, o paniniwala. Sa pag-intindi ng kontemporaryong isyu ng kawalan ng kalayaan ng pananalita, mababatid natin na tayong lahat ay may karapatan. Tayo man ay maraming pagkakaiba, dapat ilagay natin sa puso at isipan na ang bawat isa sa atin ay may karapatan at kakayahang gumawa ng ating ninanais. 
+
+<h2> Konklusyon
+</h2>
+
+<br/>
+Isang malalim na panawagan ang nais naming iparating: maging inspirasyon ang kalayaan sa bawat isa. Ang pag-unlad ng bayan ay nagsisimula sa puso at isipan ng bawat mamamayan. Sa ating pagmamahal sa bayan at pagpapahalaga sa ating kalayaan, tayo'y magsisilbing ilaw na magdadala sa ating bansa tungo sa mas maaliwalas at malaya ng kinabukasan.
+
+</p> 
+
+
+
+
+</center>
+
+
+
+
+
         </article>
+        
+        
+        
+        
+        
+        
+        
+        
     </main>
 
     <footer>
-        <p>&copy; 2023 Your Blog. All rights reserved.</p>
-    </footer>
+        <h2>Ang blog website na ito ay ginawa ng ika-4 na Pangkat. Ang anumang mga pagkakataon ng plagiarism ay iuulat at maaaring humantong sa mga malubhang kaso.</h2>
+		 <button onclick="document.getElementById('myList').style.display='block'">CONTRIBUTORS</button>
 
+
+  <ul id="myList">
+    <p>Givirain Mallo</p>
+    <p>Dagohoy Yssa</p>
+    <p>Francis Ayle Bascon</p>
+	<p>Rhyne Andot</p>
+	<p>Ira Corsame</p>
+	<p>Sean Arlee L. Tubog</p>
+    
+  </ul>
+    </footer>
+	
+	<center>
+
+</center>
 </body>
 
 </html>
